@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student REgistration Form</title>
+    <style>
+        h1,h2,form{
+            text-align: center;
+        }
+
+        input,select,button{
+            width: 250px;
+            text-align: center;
+        }
+
+    </style>
+
+    <link rel="stylesheet" href="CSS.css">
+
+</head>
+<body>
+    <img src="C:\Users\Admin\Desktop\nasc.png">
+    <h1>Nehru College of Arts And Science</h1>
+    <h2>Department of Computer Science</h2>
+   
+    <div>
+        <form>
+            <input type="text" placeholder="Enter your name" id="name"><br><br>
+            <input type="date" name="" id="dob"><br><br>
+            <select name="" id="">
+                <option value="CS">CS</option>
+                <option value="IT">IT</option>
+                <option value="DS">DS</option>
+            </select><br><br>
+
+            <button onclick="submitData()">Submit</button>
+        </form>
+    </div>    
+
+    <p id="output"></p>
+<script src="script.js"></script>
+
+</body>
+</html>
